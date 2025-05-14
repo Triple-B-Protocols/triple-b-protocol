@@ -1,68 +1,34 @@
-# **Numbers Outlive Names**
+# Executive Summary
 
-# **NON: Write Your Own Financial Future**
+The Triple-B Protocol (Bitcoin Bearer Bond) is a cryptographically secure, Bitcoin-native protocol for issuing, transferring, and redeeming digital bearer bonds as NFTs on the Bitcoin blockchain. This v0.1 draft presents a comprehensive specification, including:
 
-## **The First Self-Sovereign Bearer Bond on Bitcoin**
+- Secure issuer and participant onboarding
+- Settlement and verification flows with zero-knowledge proofs
+- Coupon payment and NFT evolution mechanisms
+- Redemption, secondary market transfer (atomic swaps), and physical bearer extensions
+- Advanced multi-party and institutional flows
 
-NON transforms financial autonomy into reality—a Bitcoin-native NFT that functions as a programmable bearer bond, built on the Triple B Protocol architecture.
+The protocol leverages BGV homomorphic encryption, zero-knowledge proofs, Schnorr/adaptor signatures, and Ordinals technology to ensure privacy, auditability, and trustless operation. All protocol flows are rigorously diagrammed and analysed for security and real-world feasibility.
 
-## **Beyond Permission: The Financial Primitive You Control**
+This draft is now ready for internal peer review and community feedback. Next steps include further formalisation, reference implementation, and integration of additional research insights as the protocol matures towards production readiness.
 
-NON isn't just another token—it's the first financial instrument that allows anyone to:
+## Motivation for Decentralised Debt Instruments
 
-* **Self-issue debt contracts** with cryptographic certainty  
-* **Record and verify coupon payments** directly on-chain  
-* **Build an immutable credit history** without institutional gatekeepers
+Traditional debt markets and even most DeFi systems rely on centralised validation, opaque reputation systems, or external oracles. Triple-B breaks this paradigm, enabling:
 
-Your financial commitment becomes an unbreakable promise—inscribed once, verifiable forever, and enforced through pure mathematics rather than middlemen.
+- Self-issued, programmable bearer bonds as Bitcoin-native NFTs
+- On-chain, immutable credit histories and coupon records
+- Trustless, cryptographically enforced commitments
+-   On-chain, immutable credit histories and coupon records
+-   Trustless, cryptographically enforced commitments
 
-## **The Triple B Protocol: Engineering Trust Into Code**
+## Key Innovations
 
-This breakthrough rests on three technological pillars:
+-   BGV homomorphic encryption for privacy-preserving aggregation
+-   Recursive, evolving inscriptions for dynamic NFT state
+-   Zero-knowledge proofs for verifiable computation and privacy
+-   Ordinals and Taproot for Bitcoin-native programmability
 
-* **Bitcoin's Blockchain**: The unmatched security and finality layer  
-* **Homomorphic Encryption**: Proving performance without exposing strategy  
-* **Zero-Knowledge Proofs**: Verifying execution without surrendering privacy
+## Guiding Principles Alignment
 
-No oracles. No bridges. No validators. Just cryptographic certainty from issuance to maturity.
-
-## **What Makes NON Revolutionary**
-
-While traditional finance relies on centralized validation, NON creates:
-
-* **Permissionless Financial Identity**: Issue your own instrument, set your own terms  
-* **On-Chain Credit History**: Every payment obligation met becomes permanent proof of performance  
-* **Trustless Counterparty Validation**: Mathematical verification replaces reputation systems  
-* **Time-Locked Payment Commitments**: Transparent, verifiable, impossible to falsify
-
-NON collapses issuance, delivery, and verification into a single, composable object.
-
-## **For Those Who Deliver**
-
-NON serves:
-
-* Creators seeking direct funding relationships with their communities  
-* Small businesses bypassing traditional lending barriers  
-* Individuals building credit histories outside banking systems  
-* Organizations requiring transparent financial accountability
-
-This isn't for speculators—it's for builders who honor their word and want that performance permanently recorded.
-
-## **The Financial System We Deserve**
-
-Traditional finance traps value in institutional silos. DeFi often abstracts away real economic activity.
-
-NON is different: it creates the infrastructure for financial agreements backed by real-world performance, with every promise kept strengthening your on-chain credit identity.
-
-## **The New Financial Primitive**
-
-NON is more than technology—it's the foundation for a new financial architecture where:
-
-* Trust is mathematically verified, not institutionally granted  
-* Credit histories can't be erased, altered or gatekept  
-* Financial reputation follows individuals, not institutions  
-* Performance creates opportunity
-
-**NON transforms what was once institutional privilege into pure protocol—turning your word into bond, and your delivery into destiny.**
-
-
+Triple-B is built to empower individuals and organizations to "Write Your Own Financial Future," enabling direct, transparent, and mathematically enforced financial relationships.
