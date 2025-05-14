@@ -1,4 +1,5 @@
-# Executive Summary
+# Gitbook Repo
+## Executive Summary
 
 The Triple-B Protocol (Bitcoin Bearer Bond) is a cryptographically secure, Bitcoin-native protocol for issuing, transferring, and redeeming digital bearer bonds as NFTs on the Bitcoin blockchain. This v0.1 draft presents a comprehensive specification, including:
 
